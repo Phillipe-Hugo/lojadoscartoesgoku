@@ -18,10 +18,29 @@ img {
     margin-bottom: 10px;
   }
 
+  .navbar-brand {
+  
+  background-size: cover;
+  }
+
+.navbar .container-fluid{
+  justify-content: space-between!important;
+  background-image: url("/img/AA1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 body {
-    background-image: url("https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/1/dragon-ball-super-goku-hit-jiren-babbal-kumar.jpg?&amp;targetx=0&amp;targety=-33&amp;imagewidth=700&amp;imageheight=566&amp;modelwidth=700&amp;modelheight=500&amp;backgroundcolor=A1A199&amp;orientation=0");
+    background-image: url("/img/dowloadC.jpg");
     background-size: cover;
+    background-position: center;
     
+}
+
+.contato-section {
+  background-image: url('/img/dowloadB.jpeg');
+  background-size: cover;
+  background-position: center;
 }
 
 body::before {
