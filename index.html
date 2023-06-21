@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Projeto Aula 3</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0" >Loja do Son Goku</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold ">
+                        <a href="#sobre-o-restaurante" class="nav-link active" > <i class="bi bi-house-door me-1"></i> Sobre a Loja</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link"> <i class="bi bi-calendar-check me-1"></i> Ocasiões</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link"> <i class="bi bi-credit-card-2-front"></i> Nossos cartões</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link"> <i class="bi bi-chat-left-text me-1"></i> Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+        <div class="carousel slide " data-bs-ride="carousel" id="carouselExampleIndicators">
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="3000">
+                    <img src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0080_1.jpg?v=1624546924&width=1946" class="d-block w-50 mx-auto" >
+                </div>
+                <div class="carousel-item" data-bs-interval="3000" >
+                    <img src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0055_1.jpg?v=1657702321&width=1946" class="d-block w-50  w-50 mx-auto" >
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0018_1_4a2235ef-19d1-4a97-a59e-7b8282cd006a.jpg?v=1657702357" class="d-block w-50 w-50 mx-auto" >
+                </div>
+                <button class="carousel-control-prev" type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" class="active" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button >
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button></button >
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/05/lj0005280/lj0005280_606aca8812f77_main.jpg?20210621040007&q=80" class="d-block  w-75 mx-auto rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2>Sobre <span>o Restaurante</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas asperiores laudantium repellat quam rem? Enim molestiae debitis temporibus, ipsam commodi nobis quas reprehenderit culpa, rem ipsum in deleniti distinctio facilis.</p>
+                            <h3>Sobre <span> o espaço</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo voluptatum</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Para todas as Ocasiões</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="https://m.media-amazon.com/images/I/71MdeURTmPL.jpg" alt="Imagem de aniversario" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title"> <i class="bi bi-calendar-heart-fill"></i> Carteira de bolso</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt commodi excepturi molestias voluptate voluptatem incidunt facere culpa, aliquid quibusdam. Impedit expedita dolore hic molestias accusamus quam quidem illum quod.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://m.media-amazon.com/images/I/71ISBZWnu5L.jpg" alt="Imagem de Casamento" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title" > <i class="bi bi-arrow-through-heart-fill"></i> Para nunca esquecer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt commodi excepturi molestias voluptate voluptatem incidunt facere culpa, aliquid quibusdam. Impedit expedita dolore hic molestias accusamus quam quidem illum quod.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://m.media-amazon.com/images/I/51mnIxsnqnL._AC_.jpg" alt="Imagem de Confraternização" class="d-block w-160 rounded mb-2">
+                    <h3 class="section-title" ><i class="bi bi-people-fill"></i> Confraternizações</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt commodi excepturi molestias voluptate voluptatem incidunt facere culpa, aliquid quibusdam. Impedit expedita dolore hic molestias accusamus quam quidem illum quod.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center mb-5">Nossos Cartões</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebida-sem-alcool" class="fw-bold nav-link text-start active">Cartões de Crédito</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold nav-link text-start">Cartões do Goku</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold nav-link text-start">Cartões Super Vilões</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold nav-link text-start">Cartões Familia</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold nav-link text-start">Cartões Superiores</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bebida-sem-alcool" >
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0019_1_471c9fca-aa30-4c99-9988-afff0ffddf7f.jpg?v=1657702157&width=1946" alt="imagem coca cola">
+                                    <h5 class="fw-bold mt-2">Goku e Vegeta</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0018_1_4a2235ef-19d1-4a97-a59e-7b8282cd006a.jpg?v=1657702357&width=1946" alt="imagem de Suco">
+                                    <h5 class="fw-bold mt-2">Goku Instinto Superior</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="data:image/png;base64,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" alt="imagem de Goku Bebe">
+                                    <h5 class="fw-bold mt-2">Goku Criança</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0393_1.jpg?v=1660460384&width=1445" alt="imagem de Gohan">
+                                    <h5 class="fw-bold mt-2">Gohan SS2</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0394_1.jpg?v=1660460395&width=1946" alt="imagem de Trunks">
+                                    <h5 class="fw-bold mt-2">Trunks SS2</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0401_1.png?v=1660463160&width=1946" alt="imagem de Familia de Vegita">
+                                    <h5 class="fw-bold mt-2">Vegita e Familia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0624/3889/9917/products/636b93763cfa487e6c2e6b4f_875x700.png?v=1667995142" alt="imagem do Brolly">
+                                    <h5 class="fw-bold mt-2">Brolly</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0403_1.png?v=1660463331&width=1946" alt="imagem Goku Black">
+                                    <h5 class="fw-bold mt-2">Goku Black SR</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas-alcoolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0018_1_4a2235ef-19d1-4a97-a59e-7b8282cd006a.jpg?v=1657702357&width=1946" alt="imagem de Goku">
+                                    <h5 class="fw-bold mt-2">Goku Instinto Superior</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0054_1.jpg?v=1657702393&width=1946" alt="imagem de Goku Nuvem voadora">
+                                    <h5 class="fw-bold mt-2">Goku e a Nuvem voadora</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0020_1_2f4e79e4-1810-4563-8a92-ced8068c2a42.jpg?v=1657702309&width=1946" alt="imagem de Goku Instinto">
+                                    <h5 class="fw-bold mt-2">Goku Instinto Superior</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="entradas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0403_1.png?v=1660463331&width=1946" alt="imagem Goku Black">
+                                    <h5 class="fw-bold mt-2">Goku Black SR</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0624/3889/9917/products/636b93763cfa487e6c2e6b4f_875x700.png?v=1667995142" alt="imagem do Brolly">
+                                    <h5 class="fw-bold mt-2">Brolly</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0402_1.png?v=1660463189&width=1946" alt="imagem do Jiren">
+                                    <h5 class="fw-bold mt-2">Jiren</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pratos-principais">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0401_1.png?v=1660463160&width=1946" alt="imagem de Familia de Vegita">
+                                    <h5 class="fw-bold mt-2">Vegita e Familia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0080_1.jpg?v=1624546924&width=1946" alt="imagem de Familia de Vegita">
+                                    <h5 class="fw-bold mt-2">Goku e Familia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://journalchamps.com/wp-content/uploads/2023/03/Anime-Laptop-Skin-300x300.webp" alt="imagem de Familia de Vegita">
+                                    <h5 class="fw-bold mt-2">Goku e Familia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="sobremesas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.ebayimg.com/images/g/-TQAAOSwy4pkVcAd/s-l1600.png" alt="imagem de Goku">
+                                    <h5 class="fw-bold mt-2">Goku Superior</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.ebayimg.com/images/g/IhAAAOSw~fVkSex4/s-l400.jpg" alt="imagem de cupcake">
+                                    <h5 class="fw-bold mt-2">Goku e Jiren Superior</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0539/0483/4752/products/ATWCCD0018_1_4a2235ef-19d1-4a97-a59e-7b8282cd006a.jpg?v=1657702357&width=1946" alt="imagem de Goku">
+                                    <h5 class="fw-bold mt-2">Goku Instinto Superior</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Fale conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label fw-bold">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Seu E-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Telefone" class="form-label fw-bold">Seu Telefone (Opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold">Sua Mensagem</label>
+                            <textarea class="form-control" name="mensagem" id="mensagem"></textarea>
+                        </div>
+                        <button id="idButton" type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Rede Sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="fs-4">
+                            <i class="bi bi-cursor-fill"></i> 
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo nº 145, Bairro: Bootstrap - Caxias do Sul / RS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
