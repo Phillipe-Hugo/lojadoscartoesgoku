@@ -3,8 +3,6 @@ body {
     background-image: url("/img/images/eventos/dowloadC.jpg");
     background-size: cover;
     background-position: center;
-    
-    
 }
 
 #sobre-o-restaurante {
@@ -21,18 +19,18 @@ body {
     color: #e15f41;
 }
 
-#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover{
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
     color: #fff;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Pacifico', cursive;
-
 }
 
 img {
-    width: 119%;
-    
+    width: 100%; /* Alteração: Defina a largura para 100% */
 }
 
 .social-links li {
@@ -44,7 +42,7 @@ img {
     text-decoration: none;
 }
 
-#idButton{
+#idButton {
     background-color: green;
 }
 
@@ -59,7 +57,8 @@ img {
 
 @media (max-width: 767px) {
     .nav-carousel-item img {
-        height: 280px;
+        height: auto; /* Alteração: Defina a altura como 'auto' para manter a proporção */
+        width: 100%; /* Adição: Garanta que a imagem se ajuste à largura da tela */
     }
     #sobre-o-restaurante {
         margin-top: 50px; 
